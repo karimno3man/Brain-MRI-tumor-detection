@@ -48,7 +48,14 @@ Key takeaways:
 - 🎯 **Precision (95%)** means the model makes very few false positive tumor predictions — a critical feature for clinical safety.  
 - ❤️ **Recall (94.7%)** shows the model effectively detects nearly all tumor cases, minimizing the risk of missed diagnoses.  
 - 📈 **AUC (0.9923)** reflects excellent separability between tumor and non-tumor classes, showing strong model confidence.  
-- 🧩 The training metrics (near 100%) with slightly higher validation/test losses suggest **good generalization without major overfitting**, thanks to early stopping and learning rate scheduling.  
+- 🧩 The training metrics (near 100%) with slightly higher validation/test losses suggest **good generalization without major overfitting**, thanks to early stopping and learning rate scheduling.
+
+  ### 📊 Validation Graphs & Confusion matrix
+  <img width="1001" height="470" alt="image" src="https://github.com/user-attachments/assets/bb65ce4b-3773-4cba-98b8-f65c42f2008f" />
+
+  <Figure size 800x600 with 2 Axes><img width="766" height="547" alt="image" src="https://github.com/user-attachments/assets/70b2967b-9d1b-41b2-990d-085ca24615a0" />
+
+
 
 Overall, this CNN demonstrates robust feature extraction and classification capabilities for brain tumor detection, showing real-world potential for assisting radiologists in diagnostic workflows.
 
